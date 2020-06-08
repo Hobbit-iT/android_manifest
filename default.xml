@@ -76,7 +76,7 @@
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
-  <project path="device/linaro/hikey" remote="gl" name="hikey-linaro-device" revision="gl-hikey960-2020" groups="device,hikey,pdk" />
+  <project path="device/linaro/hikey" remote="sk" name="hikey-linaro-device" revision="gl-hikey960-2020" groups="device,hikey,pdk" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -504,7 +504,7 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
-  <project path="kernel/hikey-linaro" remote="gl" name="hikey-linaro-kernel" revision="gl-hikey960-4.9-2020" groups="gl" />
+  <project path="kernel/hikey-linaro" remote="sk" name="hikey-linaro-kernel" revision="gl-hikey960-4.9-2020" groups="gl" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
